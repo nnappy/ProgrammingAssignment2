@@ -9,7 +9,7 @@ makeCacheMatrix <- function(x = matrix()) {
     
     m <- NULL
     
-    ## These functions (set, get, setinverse, getinverse are returned as a 
+    ## These functions (set, get, setinverse, getinverse) are returned as a 
     ## list by makeCacheMatrix
     set <- function(y) {
         x <<- y
